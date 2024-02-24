@@ -1,0 +1,20 @@
+.signup-fieldset {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+
+    margin: 0.5rem;
+    
+    border: solid 1px var(--std-font-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.signup-fieldset > legend {
+    color: var(--std-title-color);
+
+    margin: 0.3rem;
+    padding: 0.3rem;
+}

@@ -1,0 +1,9 @@
+#background-video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+    width: 100%;
+    transform: translate(10%, 0);
+}

@@ -1,0 +1,109 @@
+/* Root > Intro Content Box */
+#intro-content {
+    color: var(--std-font-color);
+    
+    width: 40%;
+    background-color: var(--std-background-color);
+    backdrop-filter:  blur(10px);
+
+    position: fixed;
+    top: 45%;
+    transform: translate(0, -50%);
+
+    padding: 1rem;
+    margin: 2rem;
+
+    border: solid 1px var(--std-background-color);
+    border-radius: 0.5rem;
+
+    font-size: 1.8rem;
+
+}
+
+#intro-content > p {
+    margin: 0.3rem 0;
+}
+
+#intro-content > h2 {
+    margin: 0 auto;
+    width: fit-content;
+    color: var(--std-title-color);
+}
+
+/* Root > Sobre */
+#about-box-background {
+    position: fixed;
+    background-color: var(--body-background-midopacity);
+    backdrop-filter: blur(8px);
+    width: 100vw;
+    height: 200vw;
+    z-index: 100;
+}
+
+#about-box {
+    /* Coloração */
+    background-color: var(--std-background-color);
+    backdrop-filter: blur(8px);
+    color: var(--std-font-color);
+    
+    /* Dimensionamento */
+    position: fixed;
+    top: 10rem;
+    margin: 0 10rem;
+    padding: 0 0 2rem 0;
+    border-radius: 1rem;
+
+    /* Organização do conteúdo */
+    display: flex;
+    flex-direction: column;
+    
+    /* Texto */
+    font-size: 1.2rem;
+    font-weight: bold
+}
+
+#about-box > section {
+    /* Organização do conteúdo */
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#about-text-section {
+    margin: 0 2rem;
+    width: 80%;
+}
+
+#about-text-section > ul {
+    padding: 0 2rem;
+    margin: 0.5rem 0;
+}
+
+/* SignIn page */
+
+#sign-box {
+    /* Dimensionamento */
+    width: 45rem;
+    height: 28rem;
+    padding: 1rem;
+
+    /* Forma */
+    border: solid 1px var(--std-background-color);
+    border-radius: 0.5rem;
+
+    /* Posicionamento na página */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Coloração */
+    background-color: var(--std-background-color);
+    backdrop-filter: blur(8px);
+}
+
+#navigate {
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+}

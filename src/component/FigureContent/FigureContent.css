@@ -1,0 +1,24 @@
+#about-figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 30%;
+
+    margin: 1rem;
+
+}
+
+#about-figure > img {
+    border-radius: 50%;
+    border: solid 1px var(--std-background-color);
+    width: 60%;
+}
+
+#about-figure > figcaption {
+    font-size: 1rem;
+    font-weight: lighter;
+
+    width: fit-content;
+    margin: 0.3rem auto;
+}
